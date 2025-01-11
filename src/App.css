@@ -1,8 +1,12 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 div {
   box-sizing: border-box;
+}
+nav {
+  padding: 20px;
 }
 .list {
   padding-left: 20px;
