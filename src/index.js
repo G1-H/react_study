@@ -11,7 +11,7 @@ import NotificationList from "./chapter_6/NotificationList";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <App />
   </React.StrictMode>
 );
 
