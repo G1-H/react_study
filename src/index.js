@@ -8,12 +8,13 @@ import Library from "./chapter_3/Library";
 import Clock from "./chapter_4/Clock";
 import CommentList from "./chapter_5/CommentList";
 import NotificationList from "./chapter_6/NotificationList";
+import Accommodate from "./chapter_7/Accommodate";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Accommodate />
     </BrowserRouter>
   </React.StrictMode>
 );
