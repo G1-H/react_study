@@ -16,12 +16,13 @@ import SignUp from "./chapter_11/SingUp";
 import Calculator from "./chapter_12/Caculator";
 import ProfileCard from "./chapter_13/ProfileCard";
 import DarkOrLight from "./chapter_14/DarkOrLight";
+import Blocks from "./chapter_15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <DarkOrLight />
+      <Blocks />
     </BrowserRouter>
   </React.StrictMode>
 );
